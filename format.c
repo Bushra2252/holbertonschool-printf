@@ -3,13 +3,9 @@
 
 
 /**
-
  * print_char - print char
-
  * @args: va_list
-
  * Return: printed length
-
  */
 
 int print_char(va_list args)
@@ -23,13 +19,9 @@ return (_putchar(va_arg(args, int)));
 
 
 /**
-
  * print_string - print string
-
  * @args: va_list
-
  * Return: printed length
-
  */
 
 int print_string(va_list args)
@@ -57,13 +49,9 @@ return (i);
 
 
 /**
-
  * print_percent - print %
-
  * @args: unused
-
  * Return: 1
-
  */
 
 int print_percent(va_list args)
@@ -79,13 +67,9 @@ return (_putchar('%'));
 
 
 /**
-
  * print_number - print int
-
  * @n: number
-
  * Return: printed length
-
  */
 
 int print_number(int n)
@@ -127,13 +111,9 @@ return (count);
 
 
 /**
-
  * print_integer - print int from va_list
-
  * @args: va_list
-
  * Return: printed length
-
  */
 
 int print_integer(va_list args)
