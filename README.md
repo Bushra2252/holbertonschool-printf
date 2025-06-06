@@ -34,3 +34,31 @@ By building this function from scratch in pure C, we gain practical insight into
 [![File](https://img.shields.io/badge/README.md-brightgreen?style=flat-square)](#) 
 [![File](https://img.shields.io/badge/man_3_printf-gray?style=flat-square)](#)
 [![Folder](https://img.shields.io/badge/test/main.c-yellow?style=flat-square)](#)
+### 📄 File Descriptions
+
+📄 File Descriptions
+main.h
+↳ Contains function prototypes, macros, and the struct used for mapping format specifiers to handler functions.
+
+main.c
+↳ Contains the main test file that uses the _printf function to test various functionalities like printing characters, strings, integers, and the percent sign.
+
+_printf.c
+↳ Contains the implementation of the _printf function, which parses the format string and prints different types such as characters, strings, integers, and the percent sign using helper functions based on the format specifier.
+
+_putchar.c
+↳ Contains the _putchar function that prints a single character to the screen using the write function from the unistd.h library, returning the number of printed characters (1).
+
+format.c
+↳ Contains helper functions including:
+ ↳ print_char – prints a single character.
+ ↳ print_string – prints a string with handling for NULL cases.
+ ↳ print_percent – prints the percent % sign.
+ ↳ print_number – prints integers, including negative numbers.
+ ↳ print_integer – retrieves an integer from va_list and prints it using print_number.
+
+get_format_func.c
+↳ Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character.
+ ↳ It uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%').
+
+
