@@ -64,3 +64,6 @@ get_format_func.c
 
 -> Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character.
 ‚It uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%')
+ 
+#### Flowchart 
+![Flowchart](./photo_2025-06-06_17-56-19.jpg)
