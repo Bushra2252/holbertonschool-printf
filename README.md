@@ -24,7 +24,7 @@ By building this function from scratch in pure C, we gain practical insight into
 
 ---
 
-### üìÅ Project Files
+###  Project Files
 
 [![File](https://img.shields.io/badge/_printf.c-blue?style=flat-square)](#)
 [![File](https://img.shields.io/badge/_putchar.c-green?style=flat-square)](#) 
@@ -37,23 +37,23 @@ By building this function from scratch in pure C, we gain practical insight into
 
 main.h
 
-‚Ü≥ Contains function prototypes, macros, and the struct used for mapping format specifiers to handler functions.
+‚->Contains function prototypes, macros, and the struct used for mapping format specifiers to handler functions.
 
 main.c
 
-‚Ü≥ Contains the main test file that uses the _printf function to test various functionalities like printing characters, strings, integers, and the percent sign.
+‚->Contains the main test file that uses the _printf function to test various functionalities like printing characters, strings, integers, and the percent sign.
 
 _printf.c
 
-‚Ü≥ Contains the implementation of the _printf function, which parses the format string and prints different types such as characters, strings, integers, and the percent sign using helper functions based on the format specifier.
+‚->Contains the implementation of the _printf function, which parses the format string and prints different types such as characters, strings, integers, and the percent sign using helper functions based on the format specifier.
 
 _putchar.c
 
-‚Ü≥ Contains the _putchar function that prints a single character to the screen using the write function from the unistd.h library, returning the number of printed characters (1).
+‚->Contains the _putchar function that prints a single character to the screen using the write function from the unistd.h library, returning the number of printed characters (1).
 
 format.c
 
-‚Ü≥ Contains helper functions including:
+‚->Contains helper functions including:
 ‚‚≥  print_char ‚Äì prints a single character.
 ‚≥   print_string ‚Äì prints a string with handling for NULL cases.
      print_percent ‚Äì prints the percent % sign.
@@ -62,5 +62,5 @@ format.c
 
 get_format_func.c
 
-‚Ü≥ Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character.
-‚ÄÉ‚Ü≥ It uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%').
+‚-> Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character.
+‚It uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%').
