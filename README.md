@@ -24,7 +24,7 @@ By building this function from scratch in pure C, we gain practical insight into
 
 ---
 
-### Project Files
+## Project Files
 
 [![File](https://img.shields.io/badge/_printf.c-blue?style=flat-square)](#)
 [![File](https://img.shields.io/badge/_putchar.c-green?style=flat-square)](#) 
@@ -65,5 +65,5 @@ get_format_func.c
 -> Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character.
 ‚It uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%')
  
-#### Flowchart 
+## Flowchart 
 ![Flowchart](./photo_2025-06-06_17-56-19.jpg)
