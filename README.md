@@ -1,6 +1,6 @@
 # Building _printf
 
-### Description
+## Description
 
 The `printf` function is a standard C library function that sends formatted output to the standard output.  
 This project is a collaborative effort by **Raghad** and **Bushra** to implement a simplified custom version of `printf`.
@@ -24,7 +24,7 @@ By building this function from scratch in pure C, we gain practical insight into
 
 ---
 
-#### Project Files
+### Project Files
 
 [![File](https://img.shields.io/badge/_printf.c-blue?style=flat-square)](#)
 [![File](https://img.shields.io/badge/_putchar.c-green?style=flat-square)](#) 
