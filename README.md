@@ -138,6 +138,7 @@ printf("String: %s\n", "Hello");
 _printf("Number: %d\n", 42);
 printf("Number: %d\n", 42);
 ```
+If both functions return the same output for all test cases, the implementation is considered correct.
 
 ##  Authors
 
