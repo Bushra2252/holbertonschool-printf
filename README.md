@@ -21,6 +21,8 @@
 
 ---
 
+ Prototype     `int _printf(const char *format, ...);`
+
 <h2 align="center">Project files</h2>
 
 
