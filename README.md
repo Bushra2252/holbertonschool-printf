@@ -77,6 +77,50 @@ This project was developed and tested in the Holberton School Sandbox environmen
 - No use of global variables.
 - Prototypes of the functions are in the `main.h` header file.
 
+<h2 align="center">Examples</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Input</th>
+      <th>Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>_printf("Hello, Holberton\n")</code></td>
+      <td><code>Hello, Holberton</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("%s", "Hello")</code></td>
+      <td><code>Hello</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("This is a number: %d", 98)</code></td>
+      <td><code>This is a number: 98</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("This is a character: %c\n", 'H')</code></td>
+      <td><code>This is a character: H</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("%s\n", "This is a String")</code></td>
+      <td><code>This is a String</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("We are the Cohort %d\n", 20)</code></td>
+      <td><code>We are the Cohort 20</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("This is not a format specifier: %k.\n")</code></td>
+      <td><code>This is not a format specifier: %k.</code></td>
+    </tr>
+    <tr>
+      <td><code>_printf("This is a character: %c. This is a digit: %d.\n", 'H', 4)</code></td>
+      <td><code>This is a character: H. This is a digit: 4.</code></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ##  Authors
