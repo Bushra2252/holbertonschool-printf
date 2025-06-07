@@ -8,7 +8,7 @@
   <tr>
     <td style="text-align:left;">
       The <code>_printf</code> project is the first group project at <a href="https://www.holbertonschool.com/">Holberton School</a>, developed by Raghad and Bushra.<br>
-      It’s a simplified version of the C <code>printf</code> function, built to understand how formatted output works internally.<br><br> 
+    It’s a simplified version of the C <code>printf</code> function, built to understand how formatted output works internally.<br><br> 
       It replicates basic functionality using variadic arguments from <code>&lt;stdarg.h&gt;</code>, without relying on the standard library.<br><br>
       <strong>Format specifiers handled:</strong> <code>%c</code> (char), <code>%s</code> (string), <code>%d</code> / <code>%i</code> (integers), <code>%%</code> (percent sign)<br>
       <strong>Practical skills gained:</strong> variadic functions,format string parsing,low-level output formatting in C
