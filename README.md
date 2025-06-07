@@ -122,6 +122,22 @@ This project was developed and tested in the Holberton School Sandbox environmen
   </tbody>
 </table>
 
+<h2 align="center">Testing</h2>
+
+The `_printf` function was tested by comparing its output with the original `printf` using various format specifiers.
+
+### Example Test Cases 
+
+```c
+_printf("Character: %c\n", 'R');
+printf("Character: %c\n", 'R');
+
+_printf("String: %s\n", "Hello");
+printf("String: %s\n", "Hello");
+
+_printf("Number: %d\n", 42);
+printf("Number: %d\n", 42);
+```
 
 ##  Authors
 
