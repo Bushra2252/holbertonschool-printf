@@ -21,7 +21,8 @@
 
 ---
 
- Prototype     `int _printf(const char *format, ...);`
+ Prototype     `int _printf(const char *format, ...);`                          [View Flowchart](https://github.com/Bushra2252/holbertonschool-printf/blob/3167a6d5069cd8df140589074a2f6ca67b2a804d/photo_2025-06-06_17-56-19.jpg)
+
 
 <h2 align="center">Project files</h2>
 
@@ -44,7 +45,6 @@
 **_putchar.c**         → Contains the _putchar function that prints a single character to the screen using the write function from the <unistd.h> library, returning the number of printed characters (1).  
 **format.c**           → Contains helper functions including: print_char, print_string, print_percent, print_number, and print_integer. These handle printing characters, strings (with NULL cases), the percent sign, and integers (including negatives).  
 **get_format_func.c**  → Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character. It uses an array of structs to map specifiers ('c', 's', 'd', 'i', '%') to their corresponding handlers.
-
 
 
 <h2 align="center">Installation & Compilation</h2>
