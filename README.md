@@ -46,11 +46,9 @@
 
 <h2 align="center">Installation & Compilation</h2>
 
-**Step 1: Clone the Repository**
-
-```bash
-git clone https://github.com/Bushra2252/holbertonschool-printf.git
-cd holbertonschool-printf
 
 
+##  Authors
 
+[![GitHub – Raghad Albeladi](https://img.shields.io/badge/GitHub-Raghad_Albeladi1-lightblue?style=flat-square&logo=github)](https://github.com/RaghadAlbeladi1)  
+[![GitHub – Bushra2252](https://img.shields.io/badge/GitHub-Bushra2252-lightblue?style=flat-square&logo=github)](https://github.com/Bushra2252)
