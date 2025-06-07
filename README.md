@@ -7,7 +7,7 @@
   <tr>
     <td style="text-align:left;">
       The <code>_printf</code> project is the first group project at <a href="https://www.holbertonschool.com/">Holberton School</a>, developed by Raghad and Bushra.<br>
-      It’s a simplified version of the C <code>printf</code> function, built to understand how formatted output works internally.<br><br>
+      It’s a simplified version of the C <code>printf</code> function, built to understand how formatted output works internally.<br><br> 
       It replicates basic functionality using variadic arguments from <code>&lt;stdarg.h&gt;</code>, without relying on the standard library.<br><br>
       <strong>Format specifiers handled:</strong> <code>%c</code> (char), <code>%s</code> (string), <code>%d</code> / <code>%i</code> (integers), <code>%%</code> (percent sign)<br>
       <strong>Practical skills gained:</strong> variadic functions, format string parsing, low-level output formatting in C
@@ -22,14 +22,16 @@
 
 ## Project Files
 
-[![File](https://img.shields.io/badge/_printf.c-blue?style=flat-square)](#)
-[![File](https://img.shields.io/badge/_putchar.c-green?style=flat-square)](#) 
-[![File](https://img.shields.io/badge/format.c-purple?style=flat-square)](#)
-[![File](https://img.shields.io/badge/get_format_func.c-orange?style=flat-square)](#) 
-[![File](https://img.shields.io/badge/main.h-red?style=flat-square)](#)
-[![File](https://img.shields.io/badge/README.md-brightgreen?style=flat-square)](#) 
-[![File](https://img.shields.io/badge/man_3_printf-gray?style=flat-square)](#)
-[![Folder](https://img.shields.io/badge/test/main.c-yellow?style=flat-square)](#)
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/_printf.c-blue?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/_putchar.c-green?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/format.c-purple?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/get_format_func.c-orange?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/main.h-red?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/README.md-brightgreen?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/man_3_printf-gray?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/test/main.c-yellow?style=flat-square" /></a>
+</p>
 
 
 **main.h**             → Contains function prototypes, macros, and the struct used for mapping format specifiers to handler functions.  
