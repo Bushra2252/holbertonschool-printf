@@ -10,7 +10,7 @@
       It’s a simplified version of the C <code>printf</code> function, built to understand how formatted output works internally.<br><br> 
       It replicates basic functionality using variadic arguments from <code>&lt;stdarg.h&gt;</code>, without relying on the standard library.<br><br>
       <strong>Format specifiers handled:</strong> <code>%c</code> (char), <code>%s</code> (string), <code>%d</code> / <code>%i</code> (integers), <code>%%</code> (percent sign)<br>
-      <strong>Practical skills gained:</strong> variadic functions, format string parsing, low-level output formatting in C
+      <strong>Practical skills gained:</strong> variadic functions,format string parsing,low-level output formatting in C
     </td>
     <td style="width:150px; text-align:right; vertical-align:top;">
       <img src="https://github.com/user-attachments/assets/5f8d33ce-fed8-438a-935c-a9916afef26e" width="130">
