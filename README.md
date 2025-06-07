@@ -64,6 +64,16 @@ To use this `_printf` function in your project:
    #include "main.h"
    ```
 
+<h2 align="center">Requirements</h2> 
+
+This project was developed and tested in the Holberton School Sandbox environment.
+
+- Developed and tested in Holberton sandbox on Ubuntu 22.04 LTS.
+- Programs and functions will be compiled with  gcc version 11.4.0 using the flags `-Wall -Werror -Wextra -pedantic`.
+- Follows the Betty style.
+- No use of global variables.
+- Prototypes of the functions are in the `main.h` header file.
+
 
 
 ##  Authors
