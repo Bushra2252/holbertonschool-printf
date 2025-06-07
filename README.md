@@ -1,26 +1,20 @@
 # Building _printf
 
 ## Description
-
-The `printf` function is a standard C library function that sends formatted output to the standard output.  
-This project is a collaborative effort by **Raghad** and **Bushra** to implement a simplified custom version of `printf`.
-
-It demonstrates:
-- Understanding how formatted output works internally in C
-- Handling basic format specifiers:
-  - Characters `%c`
-  - Strings `%s`
-  - Integers `%d` / `%i`
-  - The percent sign `%%`
-- Using **variadic arguments** via `<stdarg.h>`
-- Custom logic to parse the format string and select the right output function
-
-This project helps C programmers deepen their knowledge of:
-- Variadic functions
-- Format string parsing
-- Low-level output formatting without relying on the standard library
-
-By building this function from scratch in pure C, we gain practical insight into the core mechanics of formatted output.
+<table>
+  <tr>
+    <td style="text-align:left;">
+      The <code>_printf</code> project is the first group project at <a href="https://www.holbertonschool.com/">Holberton School</a>, developed by Raghad and Bushra.<br>
+      It’s a simplified version of the C <code>printf</code> function, built to understand how formatted output works internally.<br><br>
+      It replicates basic functionality using variadic arguments from <code>&lt;stdarg.h&gt;</code>, without relying on the standard library.<br><br>
+      <strong>Format specifiers handled:</strong> <code>%c</code> (char), <code>%s</code> (string), <code>%d</code> / <code>%i</code> (integers), <code>%%</code> (percent sign)<br>
+      <strong>Practical skills gained:</strong> variadic functions, format string parsing, low-level output formatting in C
+    </td>
+    <td style="width:150px; text-align:right; vertical-align:top;">
+      <img src="https://github.com/user-attachments/assets/5f8d33ce-fed8-438a-935c-a9916afef26e" width="130">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -54,16 +48,16 @@ _putchar.c
 format.c
 
 ->Contains helper functions including:
-��  print_char – prints a single character.
-�   print_string – prints a string with handling for NULL cases.
-     print_percent – prints the percent % sign.
-�  � print_number – prints integers, including negative numbers.
-�   print_integer – retrieves an integer from va_list and prints it using print_number.
+ââ³  print_char â€“ prints a single character.
+â³   print_string â€“ prints a string with handling for NULL cases.
+     print_percent â€“ prints the percent % sign.
+â  ³ print_number â€“ prints integers, including negative numbers.
+â³   print_integer â€“ retrieves an integer from va_list and prints it using print_number.
 
 get_format_func.c
 
 -> Contains the get_format_func function, which returns a pointer to the correct print function based on the format specifier character.
-�It uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%')
+âIt uses an array of structs to match specifiers to their corresponding functions ('c', 's', 'd', 'i', '%')
  
 ## Flowchart 
 ![Flowchart](./photo_2025-06-06_17-56-19.jpg)
