@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?center=true&size=28&duration=3000&pause=1000&color=36BCF7&width=435&lines=Welcome+to+_printf+Project!;Custom+C+Printf+Function;" alt="Typing SVG" />
 </p>
-   
+  
 <h2 align="center">Description</h2>
 <table>
   <tr>
