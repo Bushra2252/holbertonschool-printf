@@ -44,6 +44,13 @@
 
 
 
-<h2 align="center">Flowchart</h2>
- 
-![Flowchart](./photo_2025-06-06_17-56-19.jpg)
+<h2 align="center">Installation & Compilation</h2>
+
+**Step 1: Clone the Repository**
+
+```bash
+git clone https://github.com/Bushra2252/holbertonschool-printf.git
+cd holbertonschool-printf
+
+
+
