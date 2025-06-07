@@ -45,6 +45,24 @@
 
 
 <h2 align="center">Installation & Compilation</h2>
+To use this `_printf` function in your project:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <repository_name>
+   
+   git clone https://github.com/Bushra2252/holbertonschool-printf.git
+   cd holbertonschool-printf
+   ```
+2. Compile the project:
+   ```bash
+   gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_printf
+   ```
+3. Include the header file in your source code:
+   ```c
+   #include "main.h"
+   ```
 
 
 
