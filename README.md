@@ -2,7 +2,7 @@
   <p align="center">
 
     
-## Description
+<h2 align="center">Description</h2>
 <table>
   <tr>
     <td style="text-align:left;">
@@ -20,7 +20,8 @@
 
 ---
 
-## Project Files
+<h2 align="center">Project files</h2>
+
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/_printf.c-blue?style=flat-square" /></a>
@@ -43,5 +44,6 @@
 
 
 
-## Flowchart 
+<h2 align="center">Flowchart</h2>
+ 
 ![Flowchart](./photo_2025-06-06_17-56-19.jpg)
